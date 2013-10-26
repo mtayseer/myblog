@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <div id="header">
+    <div class="published">{{ article.locale_date }}</div>
+    <h1>{{ article.title }}</h1>
+  </div><!--/#header-->
+  <div id="body">
+    {{ article.content }}
+  </div>
+  {% include "_article_tags.html" %}
+  {% include "_disqus.html" %}
+{% endblock %}

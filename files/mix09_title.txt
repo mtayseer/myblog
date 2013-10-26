@@ -1,0 +1,365 @@
+day one keynote
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/KEY01.wmv
+
+day two keynote
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/KEY02.wmv
+
+microsoft asp.net 4.0 data access: patterns for success with web forms
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T47F.wmv
+
+protecting online identities
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T27F.wmv
+
+using dynamic languages to develop microsoft silverlight applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T22F.wmv
+
+developing and deploying applications on internet information services (iis)
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T57F.wmv
+
+building a rich social network application
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T35F.wmv
+
+cloud computing: what's in it for me?
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T32F.wmv
+
+escaping flatland in application design: rich user experiences
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C11F.wmv
+
+advance your design with ux design patterns
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T30F.wmv
+
+microsoft silverlight and windows presentation foundation (wpf): sharing skills and code
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T87F.wmv
+
+simplifying distributed access control with microsoft .net services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T02F.wmv
+
+caching rest with windows communication foundation
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T64M.wmv
+
+introducing the microsoft virtual earth silverlight map control ctp
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T34F.wmv
+
+deep zoom++ : build dynamic deep zoom applications with open source
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C07F.wmv
+
+modeling restful data services: present and future
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T36F.wmv
+
+state of the art in web site design on microsoft sharepoint
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C20F.wmv
+
+creating a "next generation" e-commerce experience
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T55F.wmv
+
+building microsoft silverlight controls
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T16F.wmv
+
+there's a little scripter in all of us: building a web app for the masses
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T62F.wmv
+
+building data-driven scalable ajax web pages
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T63M.wmv
+
+high-speed ria development with the microsoft silverlight toolkit
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T15F.wmv
+
+adding microsoft silverlight to your company's skill set
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T29F.wmv
+
+designing the windows 7 desktop experience
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C26F.wmv
+
+web form design
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C17F.wmv
+
+building high performance web applications and sites
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T53F.wmv
+
+the way of the whiteboard: persuading with pictures
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C16F.wmv
+
+build applications on the microsoft platform using eclipse, java, ruby and php!
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T58F.wmv
+
+touch and gesture computing, what you haven't heard
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C15F.wmv
+
+how i learned to stop worrying and love the microsoft ado.net entity framework
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T80M.wmv
+
+oomph: a microformat toolkit
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T77M.wmv
+
+user experience design for non-designers
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C30M.wmv
+
+effective infographics with interactivity
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C29M.wmv
+
+ten ways to ensure ria failure
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C06F.wmv
+
+optimizing performance for microsoft expression encoder
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T70M.wmv
+
+automated user interface (ui) testing with microsoft visual studio team system 2010
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T83M.wmv
+
+what's new for microsoft silverlight and microsoft windows presentation foundation (wpf) developers in microsoft visual studio 2010
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T73M.wmv
+
+standards for aggregating activity feeds and social aggregation services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T28F.wmv
+
+file|new -> company: creating nerddinner.com with microsoft asp.net model view controller (mvc)
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T49F.wmv
+
+offline network detection in microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T78M.wmv
+
+deep dive into microsoft silverlight graphics
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T17F.wmv
+
+delivering media with internet information services 7 (iis) media services and microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T56F.wmv
+
+running php on microsoft servers and services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T21F.wmv
+
+user experience design patterns for business applications with microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C21F.wmv
+
+developing restful services and clients with "m"
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T11F.wmv
+
+microsoft asp.net model view controller (mvc): ninja on fire black belt tips
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T44F.wmv
+
+interaction techniques using the wii remote (and other hci projects)
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C13F.wmv
+
+the future of microsoft expression blend
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C04F.wmv
+
+a lap around windows internet explorer 8
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T52F.wmv
+
+using the windows azure tools for microsoft visual studio to build cloud services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T81M.wmv
+
+delivering ads to a silverlight media player application
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T18F.wmv
+
+consuming web services in microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T42F.wmv
+
+building scalable and available web applications with microsoft project code name "velocity"
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T59F.wmv
+
+a lap around microsoft .net services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T01F.wmv
+
+what's new in windows presentation foundation (wpf) 4
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T39F.wmv
+
+what's new in microsoft sql data services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T06F.wmv
+
+building an optimized, graphics-intensive application for microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T67M.wmv
+
+c# for designers
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C05F.wmv
+
+creating a great experience on digg with windows internet explorer 8
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C22F.wmv
+
+customized live search for web and client applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T33F.wmv
+
+choosing between asp.net web forms and mvc
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T23F.wmv
+
+microsoft expression web: no platform left behind
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C03F.wmv
+
+asp.net mvc: america's next top model view controller framework
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T50F.wmv
+
+wireframes that work: designing (rich internet) applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C18F.wmv
+
+working across the client continuum
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T13F.wmv
+
+interactive prototyping with dhtml
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C14F.wmv
+
+using microsoft asp.net mvc to easily extend a web site into the mobile space
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T20F.wmv
+
+using total experience design to transform the digital building
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C08F.wmv
+
+sketch flow: from concept to production
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C01F.wmv
+
+microsoft asp.net: taking ajax to the next level
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T48F.wmv
+
+microsoft xbox "lips" and "fable ii": multi channel experiences
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T31F.wmv
+
+a website named desire
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C09F.wmv
+
+the microsoft web platform: starring internet information services (iis) and your application
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T51F.wmv
+
+connecting applications across networks with microsoft .net services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T03F.wmv
+
+windows azure storage
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T08F.wmv
+
+when errors happen: debugging microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T68M.wmv
+
+windows internet explorer 8 in the real world: how is internet explorer 8 used
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C23F.wmv
+
+introducing the microsoft web platform
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T82M.wmv
+
+protecting against internet service abuse
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T74M.wmv
+
+five killer scenarios for the windows live messenger web toolkit
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T75M.wmv
+
+scaling a rich client to half a billion users
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/B01M.wmv
+
+microsoft silverlight is ready for business
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T69M.wmv
+
+search engine optimization (seo) for web developers
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T86M.wmv
+
+lighting up web and client applications with microsoft live services
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T76M.wmv
+
+copyright laws for web designers and developers
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/B03M.wmv
+
+improving mobile experiences with the microsoft mobile device browser file
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T85M.wmv
+
+exposing web content to a global audience using machine translation
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/B05M.wmv
+
+a shot of windows live messenger and a pint of microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T84M.wmv
+
+how razorfish lights up brand with microsoft sharepoint
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C19F.wmv
+
+securing web applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T54F.wmv
+
+restful services for the programmable web with windows communication foundation
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T10F.wmv
+
+extending your brand to the desktop with windows 7
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T37F.wmv
+
+<3 the new windows live messenger web toolkit for social websites
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T26F.wmv
+
+what's new in microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T14F.wmv
+
+overview of windows azure
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T07F.wmv
+
+see through the clouds: introduction to the azure services platform
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T38F.wmv
+
+microsoft asp.net 4.0 : what's next?
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T46F.wmv
+
+principles of microsoft silverlight animation
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T12F.wmv
+
+software entrepreneurs: go big with  bizspark
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/B02M.wmv
+
+windows mobile 6.5 overview
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T61F.wmv
+
+live framework and mesh services: live services for developers
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T05F.wmv
+
+building web applications with windows azure
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T09F.wmv
+
+how'd they do it?  real app.  real code.  two weeks.  nothing but .net
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T79M.wmv
+
+integrating microsoft expression blend with adobe creative suite
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C28M.wmv
+
+building accessible rias in microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T65M.wmv
+
+building out of browser experiences with microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T45F.wmv
+
+enhancing large windows media platforms with microsoft silverlight
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/B04M.wmv
+
+the microsoft web sandbox: an open source framework for developing secure standards-based web applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T24F.wmv
+
+go beyond best practices: evolving next practices to prosper in the 21st century
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C12F.wmv
+
+improving ux through application lifecycle management
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C02F.wmv
+
+microsoft silverlight media end-to-end
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T43F.wmv
+
+creating interactivity with microsoft expression blend
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C27M.wmv
+
+design prototyping: bringing wireframes to life
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C10F.wmv
+
+measuring social media marketing
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/C24F.wmv
+
+building microsoft silverlight applications with eclipse
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T66M.wmv
+
+making xml really, really easy with microsoft visual basic 9
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T72M.wmv
+
+.net ria services - building data-driven applications with microsoft silverlight and microsoft asp.net
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T41F.wmv
+
+mesh-enabled web applications
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T04F.wmv
+
+going inside microsoft silverlight: exploring the core clr
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T71M.wmv
+
+creating media content for microsoft silverlight using microsoft expression encoder
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T19F.wmv
+
+building amazing business centric applications with microsoft silverlight 3
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T40F.wmv
+
+web development using microsoft visual studio: now and in the future
+http://mschannel9.vo.msecnd.net/o9/mix/09/wmv-hq/T25F.wmv
