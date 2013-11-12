@@ -1,7 +1,7 @@
 Title: About
 
 # About me
-![Mohammad Tayseer](/static/files/mtayseer.jpg)
+![Mohammad Tayseer](/files/mtayseer.jpg)
 
 
 My name is Mohammad Tayseer, an Egyptian programmer, living in Cairo, Egypt. I'm a Jack-of-All-Trades. These days I work with Python & Javascript, but I worked also with C#, Java & C++, on web & mobile. I believe that a good programmer is responsible for every aspect of software development.

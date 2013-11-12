@@ -5,12 +5,13 @@ all_links = set()
 visited = set()
 deadlinks = set()
 
-url = 'http://mtayseer.net/'
+#url = 'http://mtayseer.net/'
+url = 'http://localhost:7000/'
 all_links.add(url)
 
 while all_links:
     link = all_links.pop()
-    print link in visited, link
+    print link
     visited.add(link)
     r = requests.get(link)
 
@@ -18,7 +19,7 @@ while all_links:
         deadlinks.add(link)
         continue
 
-    if 'mtayseer.net' not in link:
+    if url not in link:
         continue
 
     doc = fromstring(r.content)

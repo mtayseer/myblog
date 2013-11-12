@@ -40,7 +40,7 @@ Copy.csv.zip`_, `Python-Session-2011-01-22.html`_
 .. _DreamPie: http://dreampie.sourceforge.net
 .. _Jython: http://www.jython.org/
 .. _BeautifulSoup: http://www.crummy.com/software/BeautifulSoup/
-.. _BeautifulSoupUser.zip: /static/files/BeautifulSoupUser.zip
-.. _11.csv.zip: /static/files/11.csv_.zip
-.. _11 - Copy.csv.zip: /static/files/11-Copy.csv_.zip
-.. _Python-Session-2011-01-22.html: /static/files/Python-Session-2011-01-22.zip
+.. _BeautifulSoupUser.zip: /files/BeautifulSoupUser.zip
+.. _11.csv.zip: /files/11.csv_.zip
+.. _11 - Copy.csv.zip: /files/11-Copy.csv_.zip
+.. _Python-Session-2011-01-22.html: /files/Python-Session-2011-01-22.zip
