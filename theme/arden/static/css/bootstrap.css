@@ -3047,7 +3047,7 @@ h1, h2, h3, h4, h5, h6, .nav {
 
 .jumbotron {
     margin: 60px 0;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px !important;
 }
 .jumbotron h1 {
@@ -3058,9 +3058,15 @@ h1, h2, h3, h4, h5, h6, .nav {
 .jumbotron li {
   line-height: 30px;
 }
-#index h2 {
+#index .post {
   margin-left: 120px;
 }
 .published {
   float: left;
+}
+#index .row {
+  margin: 10px 0px;
+}
+#index h2 {
+  margin: 0;
 }

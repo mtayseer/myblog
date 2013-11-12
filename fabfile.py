@@ -58,3 +58,13 @@ def publish():
         local_dir=DEPLOY_PATH.rstrip('/') + '/',
         delete=True
     )
+
+
+# My own tasks
+def checkout_submodules():
+    with lcd(r'files\talks\\'):
+        local('python -c "import os; print os.getcwd()')
+        print 'Downloading Python4GCDC2013...'
+        local('git clone https://github.com/mtayseer/Python4GCDC2013.git')
+        print 'Downloading front-end-optimization...'
+        local('git clone https://github.com/mtayseer/front-end-optimization.git')

@@ -10,11 +10,12 @@ TIMEZONE = 'Africa/Cairo'
 DEFAULT_LANG = 'en'
 
 MENUITEMS = [
+    ("talks", "/talks/"),
     ("projects", "/projects/"),
     ("about", "/about/"),
 ]
 
-VERSION = '4'
+VERSION = '5'
 THEME = 'theme/arden'
 CSS_FILE = "main.css?v=" + VERSION
 
@@ -42,6 +43,6 @@ TAG_URL = 'tags/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 
 # For cleaner output files
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
 STATIC_PATHS = ['images', 'files']
