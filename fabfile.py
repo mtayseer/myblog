@@ -35,7 +35,7 @@ def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
 def reserve():
-    build()
+    rebuild()
     serve()
 
 def preview():
@@ -60,10 +60,9 @@ def publish():
     )
 
 
-# My own tasks
+# Checkout presentations files
 def checkout_submodules():
     with lcd(r'files\talks\\'):
-        local('python -c "import os; print os.getcwd()')
         print 'Downloading Python4GCDC2013...'
         local('git clone https://github.com/mtayseer/Python4GCDC2013.git')
         print 'Downloading front-end-optimization...'

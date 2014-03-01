@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Striped 2.5 by HTML5 Up!
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		{% block head %}
+		<title>{% block title %}{{ SITENAME }}{% if article %} &middot; {{ article.title }}{% endif %}{% endblock title %}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    	<meta name="author" content="Mohammad Tayseer">
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700" rel="stylesheet" />
+		<script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+		<script src="{{ SITEURL }}/theme/js/skel.min.js"></script>
+		<script src="{{ SITEURL }}/theme/js/skel-panels.min.js"></script>
+		<script src="{{ SITEURL }}/theme/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{ SITEURL }}/theme/css/skel-noscript.css" />
+			<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" />
+			<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style-desktop.css" />
+			<link rel="stylesheet" href="{{ SITEURL }}/theme/css/style-wide.css" />
+		</noscript>
+    	<link href="{{ SITEURL }}/theme/css/pygments_style.min.css?v={{ VERSION }}" rel="stylesheet">
+    	<link href="{{ SITEURL }}/theme/css/custom.css?v={{ VERSION }}" rel="stylesheet">
+
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="{{ SITEURL }}/theme/js/html5shiv.js"></script><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie7.css" /><![endif]-->
+
+		{% if FEED_ALL_ATOM %}
+	    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+	    {% endif %}
+	    {% if FEED_ALL_RSS %}
+	    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+	    {% endif %}
+	    {% if FEED_ATOM %}
+	    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+	    {% endif %}
+	    {% if FEED_RSS %}
+	    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+	    {% endif %}
+	    {% if CATEGORY_FEED_RSS %}
+	    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+	    {% endif %}
+	    {% if TAG_FEED_ATOM %}
+	    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+	    {% endif %}
+	    {% if TAG_FEED_RSS %}
+	    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+	    {% endif %}
+
+		{% endblock head %}
+	</head>
+	<body class="left-sidebar">
+
+		<div id="wrapper">
+
+			<div id="content">
+				<div id="content-inner">
+					{% block content %}{% endblock %}
+				</div>
+			</div>
+
+			<div id="sidebar">
+				<div id="logo">
+					<h1><a href="{{ SITEURL }}/">MOHAMMAD TAYSEER</a></h1>
+				</div>
+
+				<nav id="nav">
+					<ul>
+						{% for title, link in MENUITEMS %}
+			                <li><a {% if title == page %} class="current_page_item"{% endif %} href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+			            {% endfor %}
+					</ul>
+				</nav>
+													
+				<div id="copyright">
+					<p>
+						&copy; 2013 Mohammad Tayseer.<br />
+						Images: <a href="http://n33.co">n33</a>, <a href="http://fotogrph.com">fotogrph</a><br />
+						Design: <a href="http://html5up.net/">HTML5 UP</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+	<script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS }}']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+	</body>
+</html>

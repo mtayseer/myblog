@@ -1,0 +1,16 @@
+<article class="is-post is-post-excerpt">
+    <header>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+    </header>
+    <div class="info">
+        <span class="date">
+            <span class="month">{{ article.date.strftime('%b') }}</span> 
+            <span class="day">{{ article.date.day }}</span>
+            <span class="year">{{ article.date.year }}</span></span>
+
+        <ul class="stats">
+            <li><a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" class="fa fa-comment"></a></li>
+        </ul>
+    </div>
+    {{ article.content }}
+</article>

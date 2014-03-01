@@ -1,6 +1,6 @@
-Title: About
+Title: About me
+Slug: about
 
-# About me
 ![Mohammad Tayseer](/files/mtayseer.jpg)
 
 
@@ -11,7 +11,7 @@ In this blog I write about all aspects of software: from code best practices to 
 Get in touch with me using [Facebook](http://www.facebook.com/mohammad.tayseer), or my email _m.tayseer82 at gmail.com_.
 
 
-# About the website
+## About the website
 
-The website is generated using [Pelican](http://docs.getpelican.com/). The UI design is based on [Bootstrap](http://twitter.github.io/bootstrap/) & inspired mainly by the design of [Paul Arden books](http://en.wikipedia.org/wiki/Paul_Arden).
+The website is generated using [Pelican](http://docs.getpelican.com/).
 

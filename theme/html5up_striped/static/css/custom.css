@@ -1,0 +1,7 @@
+pre, code, tt { font-family: Courier New; font-size: 12px; }
+pre { overflow-x: scroll; line-height: 24px; }
+#logo h1 { letter-spacing: normal; }
+#logo a { text-decoration: none; }
+.is-post .info .date .year { display: inline; }
+h4 a { text-decoration: underline; color: #c94663; }
+article img { max-width: 855px; }

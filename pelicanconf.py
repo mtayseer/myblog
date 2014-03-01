@@ -5,27 +5,29 @@ SITENAME = u"Mohammad Tayseer"
 #SITEURL = 'http://mtayseer.net'
 SITEURL = '/'
 
+PATH = 'content'
+
 TIMEZONE = 'Africa/Cairo'
 
 DEFAULT_LANG = 'en'
 
 MENUITEMS = [
-    ("talks", "/talks/"),
-    ("projects", "/projects/"),
-    ("about", "/about/"),
+    ("Talks I gave", "/talks/"),
+    ("Projects", "/projects/"),
+    ("About me", "/about/"),
 ]
 
 VERSION = '5'
-THEME = 'theme/arden'
+THEME = 'theme/html5up_striped'
 CSS_FILE = "main.css?v=" + VERSION
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = 'mtayseer'
 
 GOOGLE_ANALYTICS = 'UA-35924859-1'
 
-TYPOGRIFY = True
+TYPOGRIFY = False
 DEFAULT_DATE_FORMAT = '%d %b %Y'
 
 # To get pretty URLs
@@ -38,7 +40,6 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 CATEGORY_URL = 'category/{slug}/'
-CATEGORY_SAVE_AS = False
 TAG_URL = 'tags/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 

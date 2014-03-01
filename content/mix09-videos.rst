@@ -35,5 +35,5 @@ session.
 
 and for the lazy person, here are the two files: `mix09_title.txt`_, `mix09_links.txt`_
 
-.. _mix09_title.txt: /static/files/mix09_title.txt
-.. _mix09_links.txt: /static/files/mix09_links.txt
+.. _mix09_title.txt: /files/mix09_title.txt
+.. _mix09_links.txt: /files/mix09_links.txt

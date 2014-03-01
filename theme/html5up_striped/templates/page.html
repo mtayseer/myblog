@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="is-post is-post-excerpt">
+    <header>
+        <h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+    </header>
+    {{ page.content }}
+</article>
+
+{% endblock %}
