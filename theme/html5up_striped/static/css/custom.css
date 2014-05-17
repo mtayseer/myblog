@@ -1,7 +1,22 @@
-pre, code, tt { font-family: Courier New; font-size: 12px; }
-pre { overflow-x: scroll; line-height: 24px; }
+pre, code, tt { font-family: Courier New; font-size: 12px; background: #f0f0f0; }
+pre { overflow-x: scroll; line-height: 18px; }
 #logo h1 { letter-spacing: normal; }
 #logo a { text-decoration: none; }
 .is-post .info .date .year { display: inline; }
 h4 a { text-decoration: underline; color: #c94663; }
 article img { max-width: 855px; }
+article ol { list-style-type: decimal; }
+article ul { list-style-type: bullet; }
+article h3 {
+    /* Just a copy of .byline */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    display: block;
+    margin-top: 1em;
+    color: #999;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    position: relative;
+    top: -0.65em;
+    margin-bottom: -0.65em;
+}

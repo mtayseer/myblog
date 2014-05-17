@@ -1,7 +1,5 @@
-Why you should use Python
-#########################
-:date: 2007-04-09 04:03
-:category: Uncategorized
+Title: Why you should use Python
+Date: 2007-04-09 04:03
 
 Dynamic languages are very productive. This is why they are very popular
 in the UNIX community, because they form an essential part of their
@@ -9,9 +7,9 @@ culture. In the Windows community very few people used them. People
 believed that dynamic languages are slow. In 2006, the situation changed
 dramatically. I think there are two reasons for this:
 
-#. **Ruby on rails**: Rails was created to optimize programmer's
+1. **Ruby on rails**: Rails was created to optimize programmer's
    *happiness*, thus leading to *much* higher productivity.
-#. **C# 3.0**: A lot of the new features in C# 3.0 are inspired by
+2. **C# 3.0**: A lot of the new features in C# 3.0 are inspired by
    dynamic languages like Python.
 
 I will try to explain what makes Python unique. Almost everything I
@@ -28,27 +26,25 @@ developing time.
 
 **Strongly typed**: Python is
 
-#. Interpreted: It is parsed and executed at runtime.
-#. Strongly typed: It *does* type checking.
-#. Dynamic: Everything happens at runtime (including type checking).
+1. Interpreted: It is parsed and executed at runtime.
+1. Strongly typed: It *does* type checking.
+1. Dynamic: Everything happens at runtime (including type checking).
 
-   For example the following function
+For example the following function
+      
+    :::python
+    >>> def add(x, y):
+    ...   return x + y
 
-   .. code-block:: python
+  will work if
 
-      >>> def add(x, y):
-      ...   return x + y
-
-   will work if
-
-   #. ``x`` and ``y`` are of the same type (or compatible type).
-   #. This type provides the ``+`` operation.
+  1. `x` and ``y`` are of the same type (or compatible type).
+  1. This type provides the ``+`` operation.
 
    If one of the above conditions is broken, Python will raise an exception
    at runtime, stating the exact error.
-
-   .. code-block:: python
-
+    
+    :::python
     >>> add(3, 5)
     8
     >>> add("hello", " world")
@@ -63,8 +59,7 @@ developing time.
 Python is known for its readability. You can learn the syntax of Python
 in a day.
 
-.. code-block:: python
-
+    :::python
     if x in (1, 2, 3, 7, 4): 
       print 'Not found'
     else: 
@@ -74,33 +69,29 @@ in a day.
 Python has a lot of data-types built-in, which makes your life a lot
 easier. Take a dictionary for example
 
-.. code-block:: python
-
+    :::python
     >>> d = {'name': 'Bond. James Bond!!', 'car': 'Aston Martin'}
 
 You can use any hashable object as a dictionary key. To access a value
 just use
 
-.. code-block:: python
-
+    :::python
     >>> d['name']
     'Bond, James Bond!!'
 
 For example, how to implement a graph in Python? Very easy, just use a
 2D dictionary
 
-.. code-block:: python
-
+    ::python
     graph = {'A': {'B': 14}, 'B': {'C': 3, 'D': 9}, 'C': None, 'D': None}
 
 which represents this graph
 
-[ImageAttachment]
+![graph](/files/graph.png)
 
 To get the value of the edge from B-C, use
 
-.. code-block:: python
-
+    :::python
     >>> graph['B']['C']
     3
 
@@ -114,8 +105,7 @@ own *inefficient* variants.
 As I mentioned before, Python is a strongly typed language, which means
 that you cannot treat one type as another. For example
 
-.. code-block:: python
-
+    :::python
     >>> x = 0
     >>> x.keys()
     Traceback (most recent call last):
@@ -124,8 +114,7 @@ that you cannot treat one type as another. For example
 
 But, you can do the following
 
-.. code-block:: python
-
+    :::python
     >>> x = 0
     >>> x = {'name': 'Bond, James Bond!!'}
 
@@ -134,8 +123,7 @@ type. You can change the object that x points to using the assignment
 operator. This simple fact may be a little hard to understand at first,
 but to clarify it I will show a counter example. In C# you can write
 
-.. code-block:: csharp
-
+    :::csharp
     class Base {}
     class Derived : Base{
       public void MyMethod() {}
@@ -148,23 +136,21 @@ This will not work because the *reference* b is of type Base, though the
 *object* itself has this method. You have to rewrite the last line to
 become
 
-.. code-block:: csharp
-
+    :::csharp
     ((Derived)b).MethodCall();
 
 OK, how this can be useful? How many times you used 2 variables to point
 to the same piece of information? Like
 
-.. code-block:: csharp
-
+    :::csharp
     string personIdString = context.Request.Params["personId"];
     int personId = int.Parse(personIdString);
 
 In Python, this can be written as
 
-.. code-block:: python
-
-    personId = context.Request.Params['personId']personId = int(personId)
+    :::python
+    personId = context.Request.Params['personId']
+    personId = int(personId)
 
 **Returning multiple values**
 This is a stupid problem: If you want to return more than one value, you have to use out parameters.
@@ -172,24 +158,21 @@ This is a stupid problem: If you want to return more than one value, you have to
 Python solves this by using *tuples*. Tuples are simply constant lists,
 so how can we use them?
 
-.. code-block:: python
-
+    :::python
     def return_many_values():  
       return (1, 2, 4, 8)
 
 The above function returns a single object: The tuple object. The caller
 can unpack the tuple using this
 
-.. code-block:: python
-
+    :::python
     (a, b, c, d) = return_many_values()
 
 After executing the last statement a = 1, b = 2, c = 4, d = 8.
 
 Because this is a very common idiom, you can ignore the braces.
 
-.. code-block:: python
-
+    :::python
     def return_many_values():  
       return 1, 2, 4, 8
     a, b, c, d = return_many_values()
@@ -197,23 +180,22 @@ Because this is a very common idiom, you can ignore the braces.
 **Keyword arguments**
  Don't you wish that you can pass parameters by name? Something like
 
-.. code-block:: python
-
+    :::python
     Factorial(x=10)
 
-#. It is much easier to read code: No need to search on MSDN to know
+1. It is much easier to read code: No need to search on MSDN to know
    what the parameters mean.
-#. Much less errors: You remember the parameters by name, not by order.
-#. The parameters can have default values, so you can send only the
+1. Much less errors: You remember the parameters by name, not by order.
+1. The parameters can have default values, so you can send only the
    needed parameters.
-#. They can be send out-of-order: CreateWindow(x=0, y=10) is the same as
-   CreateWindow(y=10, x=0)
+1. They can be send out-of-order: `CreateWindow(x=0, y=10)` is the same as
+   `CreateWindow(y=10, x=0)`
 
 **Batteries included**
-An essential part of Python's philosophy is the *'Battaries
-included'*\ concept: The default installation should provide most of the
+An essential part of Python's philosophy is the *Battaries
+included* concept: The default installation should provide most of the
 libraries need for common tasks: Threading, Mail (SMTP, IMAP, POP3),
-Regex, GUI, Complex numbers, compression (Tar, Zip, …) and a lot of
+Regex, GUI, Complex numbers, compression (Tar, Zip, ...) and a lot of
 other useful libraries.
 
 **Not limited**
@@ -224,11 +206,11 @@ adults: they know what they should do, so the language must help them
 doing what they want. This is why Python is not isolated from the
 platform. For example, you have
 
-#. CPython: The default Python implementation, written in C.
-#. Jython: Implementation on top of JVM.
-#. IronPython: Implementation on top of CLR.
-#. win32all: A library for CPython to use Win32 APIs & COM components.
-#. Carbon: MacOS X specific APIs.
+1. CPython: The default Python implementation, written in C.
+1. Jython: Implementation on top of JVM.
+1. IronPython: Implementation on top of CLR.
+1. win32all: A library for CPython to use Win32 APIs & COM components.
+1. Carbon: MacOS X specific APIs.
 
 You can write cross-platform code in Python, but you can also write
 platform-specific components for best use of your platform.
@@ -236,21 +218,20 @@ platform-specific components for best use of your platform.
 **Everything is an object**
 Classes are objects. Functions are objects. This makes your life easier for 2 reasons
 
-#. You can add members at runtime:
-#. You can add members to an *existing class*\ : and all *new* instances
+1. You can add members at runtime:
+1. You can add members to an *existing class* : and all *new* instances
    will have this member.
-#. You can add members to an *existing object*\ : and this member will
+1. You can add members to an *existing object* : and this member will
    be specific to this object. This can be useful in GUI applications if
    you want to attach a data item to an existing widget.
-#. You can *add members to a function*\ : I will explain how to use this
+1. You can *add members to a function*: I will explain how to use this
    in a minute how to do this.
-#. You can change objects at runtime: I will explain this with an example.
+1. You can change objects at runtime: I will explain this with an example.
 
 You are required to implement the factorial function with caching. If
 you are doing it in C#, it will look like
 
-.. code-block:: csharp
-
+    :::csharp
     public class AdvancedMath{  
       static SortedDictionary<int, int> _cache = new SortedDictionary<int, int>();
       static int Factorial(int x)  {
@@ -266,16 +247,15 @@ you are doing it in C#, it will look like
 
 What is wrong with this code?
 
-#. It couples the caching to the calculation.
-#. The cache contains all intermediate values: This can be good or bad,
+1. It couples the caching to the calculation.
+1. The cache contains all intermediate values: This can be good or bad,
    depending on your usage.
-#. Factorial(100) = 0. *Overflow*.
+1. Factorial(100) = 0. *Overflow*.
 
 We can solve the first problem by separating the caching & the
 calculation into 2 different functions
 
-.. code-block:: csharp
-
+    :::csharp
     static SortedDictionary<int, int> _cache = new SortedDictionary<int, int>();
     static int Factorial(int x)
     {
@@ -305,8 +285,7 @@ course, you can use objects instead of integers, but how can you cache
 functions with more than 1 parameter! I will be happy if you send me the
 generic solution in C#, but I like the generic solution in Python
 
-.. code-block:: python
-
+    :::python
     # This function takes any function as a parameter & returns an 
     # equivalent function, but with caching
     def cached(old_fn):  
@@ -335,17 +314,17 @@ generic solution in C#, but I like the generic solution in Python
 
 Python solution has many advantages over the C# solution
 
-#. The caching is decoupled from the calculation.
-#. The caching contains only final values.
-#. The cache is not coupled to the function itself and we are not using
+1. The caching is decoupled from the calculation.
+1. The caching contains only final values.
+1. The cache is not coupled to the function itself and we are not using
    a global cache, which is a cleaner design.
-#. factorial(100) =
-   93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000L.
+1. factorial(100) =
+   <span style="word-break: break-all">93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000L</span>
    This is due to the fact that an integer *recognizes an overflow*
    (because it is an object, not just stupid 4 bytes) and converts
    itself to a long, which can represent large numbers.
 
-#. It can handle any number of arguments.
+1. It can handle any number of arguments.
 
 **The power of introspection**
 You can call a function at runtime by its name. This allows us to call
@@ -353,8 +332,7 @@ yet undefined functions. I will illustrate this with an example.
 
 This is the standard C# idiom for SAX parsing of an XML document
 
-.. code-block:: csharp
-
+    :::csharp
     try{  
       XmlTextReader rdr = new XmlTextReader();  
       rdr.WhitespaceHandling = WhitespaceHandling.None;  
@@ -393,16 +371,14 @@ a more extensible solution
 
 This is the main driver
 
-.. code-block:: python
-
+    :::python
     from xml.sax import parse as sax_parser
     parser = MySaxParser()
     sax_parse(file_name, parser)
 
 The parser will be something like
 
-.. code-block:: python
-
+    :::python
     # This is the base class that you will inherit
     class BaseSaxHandler(xml.sax.handler.ContentHandler):
       def startElement(self, tag, attributes):
@@ -438,11 +414,11 @@ The parser will be something like
       def end_channel(self):
         print '</channel>'
 
-What are the benefits?
+**What are the benefits?**
 
-#. No need to repeat the switch statement.
-#. Isolated error handling.
-#. Extensions are easy to do: You can make MySaxParserV2 which inherits
+1. No need to repeat the switch statement.
+1. Isolated error handling.
+1. Extensions are easy to do: You can make MySaxParserV2 which inherits
    MySaxParser and add/override methods to handle new/existing tags.
 
 Intropection can make your life easier when implementing proxies and web
@@ -451,30 +427,19 @@ in-depth explanation.
 
 **Used by the most successul sites**
 
-#. `Google`_
-#. Industrial Light & Magic: Makers of 'Star Wars' movies.
-#. `YouTube.com`_
-#. `Reddit.com`_: One of the most popular social bookmarking sites.
-#. `YouOs.com`_: Online OS.
-#. `And many others`_
+1.  [Google](http://www.google.com/)
+2.  Industrial Light & Magic: Makers of 'Star Wars' movies.
+3.  [YouTube.com](http://www.youtube.com/)
+4.  [Reddit.com](http://www.reddit.com/): One of the most popular social bookmarking sites.
+5.  [YouOs.com](http://www.youos.com/): Online OS.
+6.  [And many others](http://www.python.org/about/success/)
 
 **References**
 
--  `Python download link`_. I suggest using version 2.4.
--  `Dive Into Python`_: For programmers who want to learn Python
--  `Fredrik Lundh's articles`_
--  `Python cookbook`_
--  `Django`_: There are a lot of Python web frameworks, but this is the best one.
--  Join the `Python mailing list`_
-
-.. _Dive Into Python: http://www.diveintopython.org/
-.. _Google: http://www.google.com/
-.. _YouTube.com: http://www.youtube.com/
-.. _Reddit.com: http://www.reddit.com/
-.. _YouOs.com: http://www.youos.com/
-.. _And many others: http://www.python.org/about/success/
-.. _Python download link: http://www.python.org/download/
-.. _Fredrik Lundh's articles: http://www.effbot.org/zone/index.htm
-.. _Python cookbook: http://www.activestate.com/ASPN/Python/Cookbook/
-.. _Django: http://www.djangoproject.com/
-.. _Python mailing list: http://mail.python.org/mailman/listinfo/python-list
+-   [Python download link](http://www.python.org/download/). I suggest using version 2.7.
+-   [Dive Into Python](http://www.diveintopython.org/): For programmers who want to learn Python
+-   [Fredrik Lundh's articles](http://www.effbot.org/zone/index.htm)
+-   [Python cookbook](http://www.activestate.com/ASPN/Python/Cookbook/)
+-   [Django](http://www.djangoproject.com/): There are a lot of Python web frameworks, but this is
+    the best one.
+-   Join the [Python mailing list](http://mail.python.org/mailman/listinfo/python-list)

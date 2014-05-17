@@ -1,4 +1,11 @@
-# Real-time django using Firebase
+Title: Real-time Django using Firebase
+Status: draft
+
+Web applications are evolving each day. The hot wave now is real-time web applications. There are many ways to add this to your web application.
+Today I'm going to talk about one of these ways: [Firebase](https://www.firebase.com/).
+
+### What is Firebase?
+
 
 ```python
 # Mixin to save a django model to Firebase. This enables real-time django
@@ -15,16 +22,13 @@ class FireBaseModelMixin:
     def put_in_firebase(sender, instance, created, **kwargs):
         if not isinstance(instance, FireBaseModelMixin):
             return
-        object_url = str(instance.__class__.__name__) + '/' + str(instance.id)
-        requests.put(settings.FIREBASE_URL_BASE.format(object_url), serializers.serialize('json', [instance]))
+        firebase_url = 'https://my-objects.firebaseio.com/{}/{}.json'.format(instance.__class__.__name__, instance.id)
+        requests.put(firebase_url, serializers.serialize('json', [instance]))
 
 
-class Company(models.Model):
+class Company(models.Model, FireBaseModelMixin):
     name = models.CharField(max_length=200)
 
     def __unicode__(self):
         return self.name
-
-    class Meta:
-        verbose_name_plural = 'companies'
 ```

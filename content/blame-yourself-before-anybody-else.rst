@@ -58,16 +58,13 @@ It should be like this
 .. code-block:: csharp
 
     using (Transaction transaction = new Transaction(System.Data.IsolationLevel.ReadUncommitted, "SaveCompany"))
-
     {
-
         try
         {
             // Save related entities
             foreach (Employee employee in CompanyEmployees)
             {
                 employee.Transaction = transaction;
-
                 employee.Save();
             }
 

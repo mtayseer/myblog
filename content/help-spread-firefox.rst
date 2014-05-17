@@ -4,4 +4,4 @@ Help spread Firefox
 :category: Uncategorized
 :tags: old blog
 
-.. image:: http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/buttons/en-US/180x150_02.png
+.. image:: https://affiliates.mozilla.org/media/img/template/illo.png

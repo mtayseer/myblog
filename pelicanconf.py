@@ -17,7 +17,7 @@ MENUITEMS = [
     ("About me", "/about/"),
 ]
 
-VERSION = '5'
+VERSION = '6'
 THEME = 'theme/html5up_striped'
 CSS_FILE = "main.css?v=" + VERSION
 
