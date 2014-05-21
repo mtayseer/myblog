@@ -17,8 +17,8 @@ MENUITEMS = [
     ("About", "/about/"),
 ]
 
-VERSION = '7'
-THEME = 'theme/littlebigdetail'
+VERSION = '8'
+THEME = 'theme/littlebigdetails'
 CSS_FILE = "main.css?v=" + VERSION
 
 DEFAULT_PAGINATION = 10

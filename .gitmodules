@@ -1,0 +1,3 @@
+[submodule "theme/littlebigdetails"]
+	path = theme/littlebigdetails
+	url = https://github.com/mtayseer/pelican-littlebigdetails
