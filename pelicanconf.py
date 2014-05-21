@@ -12,13 +12,13 @@ TIMEZONE = 'Africa/Cairo'
 DEFAULT_LANG = 'en'
 
 MENUITEMS = [
-    ("Talks I gave", "/talks/"),
+    ("Talks", "/tags/talks/"),
     ("Projects", "/projects/"),
-    ("About me", "/about/"),
+    ("About", "/about/"),
 ]
 
-VERSION = '6'
-THEME = 'theme/html5up_striped'
+VERSION = '7'
+THEME = 'theme/littlebigdetail'
 CSS_FILE = "main.css?v=" + VERSION
 
 DEFAULT_PAGINATION = 10
@@ -47,3 +47,10 @@ TAG_SAVE_AS = 'tags/{slug}/index.html'
 DELETE_OUTPUT_DIRECTORY = False
 
 STATIC_PATHS = ['images', 'files']
+
+SOCIAL_LINKS = [
+    ('Twitter',  'http://twitter.com/m_tayseer'),
+    ('Facebook', 'http://facebook.com/mohammad.tayseer'),
+    ('Github',   'http://github.com/mtayseer'),
+    ('Email',    'mailto:mtayseer82 -at- gmail.com'),
+]

@@ -13,5 +13,5 @@ Get in touch with me using [Facebook](http://www.facebook.com/mohammad.tayseer),
 
 ## About the website
 
-The website is generated using [Pelican](http://docs.getpelican.com/).
+The website is generated using [Pelican](http://docs.getpelican.com/). The design is copied from [Little Big Details](http://littlebigdetails.com/) with permission.
 

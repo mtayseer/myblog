@@ -2,7 +2,7 @@ Dynamic languages on .net
 #########################
 :date: 2011-01-23 01:07
 :category: Uncategorized
-:tags: .net, dotnetworks, EGJUG, IronPython, Python, sessions
+:tags: .net, dotnetworks, EGJUG, IronPython, Python, talks
 
 Today was the 2nd joint `event`_ by `dotnetworks`_ and `EGJUG`_. There
 was 2 sessions: Oracle ADF a practical experience (which I didn't

@@ -4,4 +4,4 @@ Help spread Firefox
 :category: Uncategorized
 :tags: old blog
 
-.. image:: https://affiliates.mozilla.org/media/img/template/illo.png
+https://affiliates.mozilla.org/

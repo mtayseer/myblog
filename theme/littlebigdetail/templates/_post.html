@@ -1,0 +1,29 @@
+<article class="post">
+  {% if article.date %}
+    
+  <div class="meta">
+    <a href="{{ SITEURL }}/{{ article.url }}" class="date-icon">
+      <p class="cal-date">{{ article.date.strftime('%d') }}</p>
+    </a>            
+    <div class="date">
+      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.date.strftime('%b') }}</a>
+    </div>
+    <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" class="comments-icon"></a>
+  </div>
+  {% endif %}
+
+  <div class="text{% if article.rtl %} rtl{% endif %}">
+    <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+    {{ article.content }}
+  </div>
+
+
+  {% if article.tags %}
+    <div class="tags">
+      #
+      {% for tag in article.tags|sort %}
+        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>

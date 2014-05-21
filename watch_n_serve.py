@@ -24,20 +24,22 @@ def watch_n_serve():
         return response
 
     class BuildEventHandler(FileSystemEventHandler):
-        def on_moved(self, event):
+        def on_any_event(self, event):
             super(BuildEventHandler, self).on_moved(event)
             rebuild()
 
-        on_created = on_deleted = on_modified = on_moved
-
     event_handler = BuildEventHandler()
-    observer = Observer()
-    observer.schedule(event_handler, './content', recursive=True)
-    observer.start()
+    content_observer, theme_observer = Observer(), Observer()
+    content_observer.schedule(event_handler, './content', recursive=True)
+    theme_observer.schedule(event_handler, './theme', recursive=True)
+    content_observer.start()
+    theme_observer.start()
     try:
         run(host='localhost', port=8080, debug=True)
     finally:
-        observer.stop()
-        observer.join()
+        content_observer.stop()
+        content_observer.join()
+        theme_observer.stop()
+        theme_observer.join()
 
 watch_n_serve()
