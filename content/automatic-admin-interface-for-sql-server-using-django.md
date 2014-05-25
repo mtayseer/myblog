@@ -20,7 +20,7 @@ screenshots at the end of the post.
     Python, e.g. if you installed Python 2.5, you should select
     pyodbc-2.0.58.win32-py2.5.exe.
 4.  Checkout django-pyodbc from
-    http://django-pyodbc.googlecode.com/svn/trunk/ using a Subversion
+    [http://django-pyodbc.googlecode.com/svn/trunk/](http://django-pyodbc.googlecode.com/svn/trunk/) using a Subversion
     client, then you should move the directory `sql_server` to
     `C:\Python25\Lib\site-packages\`.
 
@@ -137,27 +137,27 @@ I hope this wets your appetite for learning Django.
 The home page. I had to remove everything that reveals the application.
 As you can see, Django admin also stores a history of changes.
 
-![1](http://farm4.static.flickr.com/3175/3045831744_c0532b7636_o.png)
+![1](/files/admin-1.png)
 
 This is the view for students. I customized it a little bit to view
 students' emails, but you can customize it more.
 
-![2](http://farm4.static.flickr.com/3292/3045831428_b7639553b0_o.png)
+![2](/files/admin-2.png)
 
 This is the form to change the student. The "UserId" is a foreign key to
 the "Users" table. Django admin is smart enough to grab them for your.
 If you want to add a new user, you can add it by clicking the small "+"
 sign beside the drop down list.
 
-![3](http://farm4.static.flickr.com/3287/3045872938_72eec230d2_o.jpg)
+![3](/files/admin-3.jpg)
 
 This shows the screen for users in the "Auth" application (which is
 added by Django itself). This shows a more advanced listing: you can
 select the columns that will be displayed, with sorting. You can add
 filters (on the right), and you can add search also.
 
-![4](http://farm4.static.flickr.com/3165/3044985885_158f8e134c_o.png)
+![4](/files/admin-4.png)
 
 This is the form for editing users.
 
-![5](http://farm4.static.flickr.com/3062/3044985883_1820daa613_o.png)
+![5](/files/admin-5.png)
