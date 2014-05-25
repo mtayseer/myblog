@@ -54,3 +54,4 @@ SOCIAL_LINKS = [
     ('Github',   'http://github.com/mtayseer'),
     ('Email',    'mailto:mtayseer82 -at- gmail.com'),
 ]
+

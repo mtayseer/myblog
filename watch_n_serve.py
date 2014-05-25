@@ -3,9 +3,6 @@ from bottle import route, run, static_file
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-def rebuild():
-    os.system('fab rebuild')
-
 def watch_n_serve():
 
     OUTPUT_ROOT = './output'
@@ -25,8 +22,12 @@ def watch_n_serve():
 
     class BuildEventHandler(FileSystemEventHandler):
         def on_any_event(self, event):
+            # Because main.css is generated, I don't want to get into an infinite loop of generation
+            generated_css = os.path.abspath(os.path.join(os.path.dirname(__file__), 'theme/littlebigdetails/static/css/main.css'))
+            if event.src_path == generated_css:
+                return
             super(BuildEventHandler, self).on_moved(event)
-            rebuild()
+            os.system('fab rebuild')
 
     event_handler = BuildEventHandler()
     content_observer, theme_observer = Observer(), Observer()

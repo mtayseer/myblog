@@ -22,6 +22,7 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 def build():
+    local('lessc theme/littlebigdetails/static/css/main.less > theme/littlebigdetails/static/css/main.css')
     local('pelican -s pelicanconf.py')
 
 def rebuild():
