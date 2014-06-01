@@ -1,3 +1,6 @@
 [submodule "theme/littlebigdetails"]
 	path = theme/littlebigdetails
 	url = https://github.com/mtayseer/pelican-littlebigdetails
+[submodule "theme/wilson"]
+	path = theme/wilson
+	url = https://github.com/mtayseer/pelican-wilson

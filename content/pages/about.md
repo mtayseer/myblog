@@ -1,8 +1,6 @@
 Title: About me
 Slug: about
-
-![Mohammad Tayseer](/files/mtayseer.jpg)
-
+Thumbnail: /files/mtayseer.jpg
 
 My name is Mohammad Tayseer, an Egyptian programmer, living in Cairo, Egypt. I'm a Jack-of-All-Trades. These days I work with Python & Javascript, but I worked also with C#, Java & C++, on web & mobile. I believe that a good programmer is responsible for every aspect of software development.
 
@@ -13,5 +11,6 @@ Get in touch with me using [Facebook](http://www.facebook.com/mohammad.tayseer),
 
 ## About the website
 
-The website is generated using [Pelican](http://docs.getpelican.com/). The design is copied from [Little Big Details](http://littlebigdetails.com/) with permission.
+The website is generated using [Pelican](http://docs.getpelican.com/). The design is [Wilson](http://www.andersnoren.se/teman/wilson-wordpress-theme/), by [Anders Norén](http://www.andersnoren.se/). 
+I made [the Pelican version](https://github.com/mtayseer/pelican-wilson).
 
