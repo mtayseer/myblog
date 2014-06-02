@@ -13,6 +13,12 @@ Calculates the number of people who can fit in a certain geographic area.
 #### [My Taxi Ride](http://mtayseer.github.io/my-taxi-ride/)
 Calculates the cost of a taxi ride in Cairo, Egypt.
 
+#### [InfoQ downloader](https://github.com/mtayseer/infoq-downloader)
+Download [InfoQ](http://www.infoq.com) presentation videos & slides for offline viewing.
+
+#### [SoundCloud downloader](https://github.com/mtayseer/sc-downloader)
+Download [SoundCloud](https://soundcloud.com/) audio tracks & playlists. Read its story [here](/2014/06/02/soundcloud-playlist-downloader/).
+
 ## Projects I contributed to
 
 #### [django-postgres-fuzzycount](https://github.com/stephenmcd/django-postgres-fuzzycount)
