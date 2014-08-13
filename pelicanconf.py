@@ -2,8 +2,8 @@ DISPLAY_PAGES_ON_MENU = True
 
 AUTHOR = u"Mohammad Tayseer"
 SITENAME = u"Mohammad Tayseer"
-#SITEURL = 'http://mtayseer.net'
-SITEURL = '/'
+SITEURL = 'http://mtayseer.net'
+#SITEURL = '/'
 
 PATH = 'content'
 
@@ -40,6 +40,7 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 CATEGORY_URL = 'category/{slug}/'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+USE_FOLDER_AS_CATEGORY = False
 
 TAG_URL = 'tags/{slug}/'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
@@ -54,7 +55,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 STATIC_PATHS = ['images', 'files']
 
-PLUGIN_PATH = r'F:\tayseer\projects\pelican-plugins'
+PLUGIN_PATHS = [r'../pelican-plugins']
 PLUGINS = ['neighbors']
 
 

@@ -18,7 +18,7 @@ env.cloudfiles_container = '$cloudfiles_container'
 
 def clean():
     if os.path.isdir(DEPLOY_PATH):
-        local('rm -rf {deploy_path}'.format(**env))
+        local('echo y | rmdir /s {deploy_path}'.format(**env))
         local('mkdir {deploy_path}'.format(**env))
 
 def build():
@@ -65,42 +65,6 @@ def publish():
         delete=True
     )
 
-def watch_n_serve():
-    from bottle import route, run, static_file
-    from watchdog.observers import Observer
-    from watchdog.events import FileSystemEventHandler
-
-    OUTPUT_ROOT = './output'
-
-    @route('/')
-    @route('/<path:path>')
-    def serve(path='index.html'):
-        response = static_file(path, root=OUTPUT_ROOT)
-
-        # if the user wants a directory, I search for index pages
-        if path.endswith('/') and response.status_code == 404:
-            for file in ['index.html', 'index.htm']:
-                response = static_file(path + file, root=OUTPUT_ROOT)
-                if response.status_code != 404:
-                    return response
-        return response
-
-    class BuildEventHandler(FileSystemEventHandler):
-        def on_moved(self, event):
-            super(BuildEventHandler, self).on_moved(event)
-            rebuild()
-
-        on_created = on_deleted = on_modified = on_moved
-
-    event_handler = BuildEventHandler()
-    observer = Observer()
-    observer.schedule(event_handler, './content', recursive=True)
-    observer.start()
-    try:
-        run(host='localhost', port=8080, debug=True)
-    finally:
-        observer.stop()
-        observer.join()
 
 # Checkout presentations files
 def checkout_submodules():
