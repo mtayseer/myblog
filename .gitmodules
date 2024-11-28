@@ -4,3 +4,9 @@
 [submodule "theme/wilson"]
 	path = theme/wilson
 	url = https://github.com/mtayseer/pelican-wilson
+[submodule "content/files/talks/Python4GCDC2013"]
+	path = content/files/talks/Python4GCDC2013
+	url = https://github.com/mtayseer/Python4GCDC2013
+[submodule "content/files/talks/front-end-optimization"]
+	path = content/files/talks/front-end-optimization
+	url = https://github.com/mtayseer/front-end-optimization
