@@ -3,3 +3,4 @@ _import
 output
 dead_links.txt
 cache
+venv_pelican
