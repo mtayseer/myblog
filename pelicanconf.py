@@ -2,8 +2,8 @@ DISPLAY_PAGES_ON_MENU = True
 
 AUTHOR = u"Mohammad Tayseer"
 SITENAME = u"Mohammad Tayseer"
-SITEURL = 'http://mtayseer.net'
-#SITEURL = '/'
+#SITEURL = 'http://mtayseer.net'
+SITEURL = '/'
 
 PATH = 'content'
 
