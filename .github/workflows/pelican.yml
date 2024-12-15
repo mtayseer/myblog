@@ -11,4 +11,4 @@ jobs:
       pages: "write"
       id-token: "write"
     with:
-      settings: "publishconf.py"
+      settings: "pelicanconf.py"
