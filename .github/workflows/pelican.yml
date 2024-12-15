@@ -13,3 +13,4 @@ jobs:
     with:
       settings: "pelicanconf.py"
       requirements: "-r requirements.txt"
+      theme: "https://github.com/mtayseer/pelican-wilson"
