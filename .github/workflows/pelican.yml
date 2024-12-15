@@ -12,3 +12,4 @@ jobs:
       id-token: "write"
     with:
       settings: "pelicanconf.py"
+      requirements: "-r requirements.txt"
